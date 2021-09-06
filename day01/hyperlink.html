@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HypherText(HyperLink)</title>
+</head>
+<body>
+    <!-- 웹문서 사이의 연결(링크)는 a(anchor) 태그 -->
+    구글 사이트 이동 : <a href="https://www.google.com">Google</a>    
+                    <!-- ㄴ> href는 링크될 문서의 주소 :(1)도메인 네임-->
+    <br><!--a태그 뒤에는 줄 바꿈이 안됨. br태그로 줄 바꿈  -->
+                    다음 사이트 이동 : <a href="https://www.daum.net/" target="_blank">Daum</a>
+                    <!-- ㄴ> target="blank"는 새 탭으로 열기 -->
+    <br>
+    <b>같은 폴더 위치의 파일 이동</b> : <a href="mytest.html">mytest.html보여주기</a>
+    <!-- 하나의 웹문서 내용이 화면을 벗어날 때는 같은 문서의 특정 위치로 이동할 수 있다.-->
+    <br><a href="#">이동 동작 없음</a>
+    <hr>
+    <!-- 이미지 포함 시키기 -->
+    <img src="../images/IU1.jpg" width="50%"> <!-- 윈도우 크기의 50% -->
+    <img src="../images/IU2.jpg" width="50%"> <!-- ../는 한단계 상위폴더로 이동 (상대경로) -->
+    <img src="../images/banana.jpg" width="50%">
+    <br>
+    <!-- 아래 3개의 이미지 너비를 합하면 화면의 90%, 3개가 같은 라인으로 배치된다. -->
+    <img src="../images/IU1.jpg" width="30%">   <!-- 윈도우 크기의 30% : 이미지 비율에 따라 높이 결정된다.-->
+    <img src="../images/IU2.jpg" width="30%">
+    <img src="../images/banana.jpg" width="30%">
+
+</body>
+</html>
